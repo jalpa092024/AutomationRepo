@@ -16,6 +16,7 @@ public class FindElements {
         for (WebElement w : allElements) {
             System.out.println(w);
         }
+System.out.println("For testing git");
         Thread.sleep(3000);
         driver.close();
     }

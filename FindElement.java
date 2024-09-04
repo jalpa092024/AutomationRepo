@@ -12,6 +12,7 @@ public class FindElement {
         driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
       WebElement userNameTextBox= driver.findElement(By.id("login1"));
       userNameTextBox.sendKeys("jalpa Prajapati");
+system.out.println("Test");
         Thread.sleep(3000);
         driver.close();
     }
